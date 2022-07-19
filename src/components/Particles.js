@@ -21,7 +21,7 @@ const Particles = () => {
     
       options={{
       
-        fpsLimit: 60,
+        fpsLimit: 30,
         interactivity: {
             events: {
               onClick: {
