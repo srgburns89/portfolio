@@ -3,7 +3,7 @@ import Avatar from "../avatar.png";
 
 const AboutMe = () => {
     return (
-        <div className="container  about-me mt-5">
+        <div id="about" className="container  about-me mt-5">
             <h2 className="about-heading" style={{textAlign: "center"}}>About Me</h2>
             <div className="about-container">
             <div className="row">
