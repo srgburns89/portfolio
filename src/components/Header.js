@@ -1,19 +1,20 @@
 import React from "react";
 import Typed from "react-typed"
-import Particles from "../components/Particles"
+
 
 const Header = () => {
     return (
         <div className="header-wraper">
-      {/* <Particles /> */}
+      
 
 
  
             <div className="main-info">
+            
                 
                 <h1>Full Stack Web Developer</h1>
                 <Typed className="typed-text"
-                strings={["Web Design", "Web Development", "Google ADS"]}
+                strings={["Web Design", "React JS", "Node.js", "SQL", "CSS", "HTML"]}
                 typeSpeed={50}
                 backSpeed={60}
                 loop
