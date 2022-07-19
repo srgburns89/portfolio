@@ -23,6 +23,7 @@ I specialize in developing full stack JavaScript applications with React/NextJS,
 
             </div>
         </div>
+        
     )
 }
 

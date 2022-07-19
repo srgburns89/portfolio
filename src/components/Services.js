@@ -4,7 +4,7 @@ import { faAlignJustify, faCode, faEdit, faFileCode, faTools } from '@fortawesom
 
 const Services = () => {
     return (
-        <div id="services" className="services mt-5">
+        <div id="tools" className="services mt-5">
         
                 
             <div className="container ">

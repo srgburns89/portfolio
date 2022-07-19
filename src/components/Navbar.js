@@ -36,13 +36,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="services" offset={-130} className="nav-link" href="#">
+            <Link to="tools" offset={-200} className="nav-link" href="#">
               Services
             </Link>
           </li>
 
           <li className="nav-item">
-            <Link  to="contact" className="nav-link" href="#">
+            <Link  to="contact" offset={-130} className="nav-link" href="#">
               contact
             </Link>
           </li>

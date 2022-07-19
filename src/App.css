@@ -150,6 +150,8 @@ color: var(--primary-white)!important;
 
 .about-me {
   color: var(--primary-white);
+  height: 50vh;
+
   
 
 }
@@ -179,13 +181,26 @@ color: var(--primary-white)!important;
   }
 }
 
+@media(max-width: 1000px){
+  .services {
+    padding-top: 20rem;
+  }
+}
+
 .services {
+ 
+
   color: var(--primary-white);
+
+  
   /* margin-left: 10%;
   margin-right: 10%; */
+  /* position: relative; */
   text-align: center;
   padding-bottom: 2rem;
   /* background: gray; */
+  /* height: 100vh; */
+
 
 }
 
@@ -209,7 +224,8 @@ color: var(--primary-white)!important;
 
 .contacts {
   padding: 3rem 3rem;
-  color: var(--primary-white)
+  color: var(--primary-white);
+  height: 80vh;
 ;}
 
 .contacts h1 {
