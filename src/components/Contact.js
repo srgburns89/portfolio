@@ -21,11 +21,11 @@ const Contact = () => {
         console.log(error.text);
       }
     );
-    e.target.reset();
+    
   };
 
   return (
-    <div className="contacts">
+    <div id="contact" className="contacts">
       {status && (
         <div className="text-center">
           <h1>THANK YOU!</h1>

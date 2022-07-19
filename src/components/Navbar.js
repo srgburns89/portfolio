@@ -2,10 +2,11 @@ import React from "react";
 import logo from "../sb-logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons"
+import {Link} from "react-scroll";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-black">
+    <nav className="navbar navbar-expand-lg navbar-light bg-black fixed-top">
       <div className="container">
       <a className="navbar-brand" href="#">
         <img className="sb-logo" src={logo} alt="SB" />
@@ -25,29 +26,25 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="#">
+            <Link to="home" className="nav-link" href="#">
               Home 
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link to="about" offset={-130} className="nav-link" href="#">
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link to="tools" offset={-200} className="nav-link" href="#">
               Services
-            </a>
+            </Link>
           </li>
+
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              Projects
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link  to="contact" offset={-130} className="nav-link" href="#">
               contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
